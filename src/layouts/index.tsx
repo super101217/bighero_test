@@ -5,7 +5,7 @@ interface LayoutProps {
   children?: React.ReactNode;
 }
 
-export function LayoutComponent({ children }: LayoutProps) {
+function LayoutComponent({ children }: LayoutProps) {
   return (
     <LayoutContainer>
       <ContentSection>{children}</ContentSection>

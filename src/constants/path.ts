@@ -1,1 +1,1 @@
-export const NOTFOUND = '*';
+export const COVERAGE_PERIODS = '/coverage-periods';
